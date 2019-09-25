@@ -1,0 +1,4 @@
+#!/bin/bash
+/opt/nifi/bin/nifi.sh stop
+rm -f ../logs/*
+/opt/nifi/bin/nifi.sh start
